@@ -1,0 +1,134 @@
+body {
+  background-color: #f7f7f7;
+  color: #3f3f44;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #fdcb9e 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  /* makes links not underlined */
+}
+
+.top {
+  background-color: #cceabb;
+
+  padding-bottom: 200px;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.middle {
+  margin: 100px 0;
+}
+
+.contact-me {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.footer {
+  background-color: #cceabb;
+  padding: 50px 0 20px;
+  margin-top: 20px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.my-name {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 5rem;
+font-weight: lighter;
+}
+
+.programmer {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.top-flower {
+  position: absolute;
+  right: 125px;
+  top: 40px;
+}
+
+.middle-flower {
+  position: absolute;
+  left: 150px;
+  bottom: 250px;
+}
+
+.bottom-flower {
+  position: absolute;
+  right: 375px;
+  bottom: 75px;
+}
+
+.skill-img-left {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-right {
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #cceabb;
+  border-radius: 8px;
+  color: #3f3f44;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fdcb9e;
+}
+
+.copyright {
+  font-size: 1rem;
+  padding: 30px 0;
+}
+
+.footer-link {
+  font-weight: 900;
+}
+
+.footer-link:hover {
+  color: #fdcb9e;
+}
